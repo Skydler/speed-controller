@@ -1,0 +1,36 @@
+{
+   "name": "Speed controller",
+   "short_name": "speed-controller",
+   "description": "Easily control HTML5 video and audio playback speed",
+   "manifest_version": 2,
+   "offline_enabled": true,
+   "version": "1.0",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "background": {
+      "page": "lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "Video Speed Control"
+   },
+   "homepage_url": "https://github.com/Skydler/speed-controller",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1Vp2kUwoemnYs4hcvsq5bimlC48OQNBGYUEbgXq8WYGr3mN43aYIuGEbb88Yz7ArZAGinTXByJI/pM+z05zIQXg0Mmopg6Xqy5fCrRv7x+QaNhkc1EZhhC16umscnqeEq4i1gQoyn1uYJGRs+IORFOVPsKXzdxis6XvI+3SOU7ZgEG5Z0lYMPqLj/ANUVzuUY3Kfl/2r3Loy3/UkJZ0gCjCymn5Dz47mjH6vTJngtn8VCxGC3MD2Nd7abeGwWFk3UWA34eVCf1lo6eGnrSj29SNDI6O/8PadY40OnZfEJ9/srvXF0M5tnxlKpo1r0w9g0XMVSCAOIQDdagHkocHZAwIDAQAB",
+   "permissions": [
+      "activeTab",
+      "*://*.youtube.com/*",
+      "storage"
+   ],
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
